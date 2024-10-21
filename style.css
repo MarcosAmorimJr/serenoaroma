@@ -3,102 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
-    color: #2d3436;
-    background-color: #f7f1e3;
+    color: #2c2c54; /* Roxo escuro */
+    background-color: #f3e5f5; /* Lilás claro */
 }
-
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
 }
-
 header {
-    background-color: #2d3436;
+    background-color: #6c5ce7; /* Roxo vibrante */
     padding: 20px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 header h1 {
-    color: #f7f1e3;
+    color: #f3e5f5; /* Lilás claro */
     font-size: 28px;
     letter-spacing: 1px;
 }
-
 nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
-
 nav ul li {
     margin-left: 25px;
 }
-
 nav ul li a {
-    color: #f7f1e3;
+    color: #f3e5f5; /* Lilás claro */
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
-
 nav ul li a:hover {
-    color: #e17055;
+    color: #fd79a8; /* Rosa vibrante */
 }
-
 #home {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                 url('natureza-vela.jpg') no-repeat center center/cover;
-    color: #f7f1e3;
+    color: #f3e5f5; /* Lilás claro */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-
 #home h2 {
     font-size: 52px;
     margin-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 #home p {
     font-size: 20px;
     margin-bottom: 25px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
-
 #home .btn {
-    background-color: #e17055;
+    background-color: #fd79a8; /* Rosa vibrante */
     padding: 12px 25px;
-    color: #f7f1e3;
+    color: #f3e5f5; /* Lilás claro */
     text-decoration: none;
     border-radius: 25px;
     transition: all 0.3s ease;
     font-weight: 500;
 }
-
 #home .btn:hover {
-    background-color: #d35400;
+    background-color: #e84393; /* Rosa escuro */
     transform: translateY(-2px);
 }
-
 #about, #products {
     padding: 80px 0;
     text-align: center;
 }
-
 #about h2, #products h2 {
     font-size: 40px;
     margin-bottom: 25px;
-    color: #2d3436;
+    color: #6c5ce7; /* Roxo vibrante */
 }
-
 #about p, #products p {
     font-size: 18px;
     max-width: 700px;
@@ -106,7 +90,6 @@ nav ul li a:hover {
     line-height: 1.8;
     color: #636e72;
 }
-
 .product-grid {
     display: flex;
     justify-content: space-around;
@@ -114,7 +97,6 @@ nav ul li a:hover {
     gap: 30px;
     margin-top: 40px;
 }
-
 .product {
     width: 30%;
     background-color: #fff;
@@ -123,74 +105,60 @@ nav ul li a:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-
 .product:hover {
     transform: translateY(-5px);
 }
-
 .product img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
 }
-
 .product h3 {
-    color: #2d3436;
+    color: #6c5ce7; /* Roxo vibrante */
     margin-bottom: 10px;
 }
-
 .product p {
     color: #636e72;
 }
-
 #contact {
-    background-color: #f7f1e3;
+    background-color: #f3e5f5; /* Lilás claro */
     padding: 60px 0;
     text-align: center;
 }
-
 #contact h2 {
     font-size: 40px;
     margin-bottom: 25px;
-    color: #2d3436;
+    color: #6c5ce7; /* Roxo vibrante */
 }
-
 #contact p {
     font-size: 18px;
     margin-bottom: 15px;
 }
-
 #contact a {
-    color: #e17055;
+    color: #fd79a8; /* Rosa vibrante */
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
 #contact a:hover {
-    color: #d35400;
+    color: #e84393; /* Rosa escuro */
 }
-
 footer {
-    background-color: #2d3436;
+    background-color: #6c5ce7; /* Roxo vibrante */
     padding: 30px 0;
     text-align: center;
-    color: #f7f1e3;
+    color: #f3e5f5; /* Lilás claro */
 }
-
 footer p {
     margin-bottom: 12px;
 }
-
 footer a {
-    color: #e17055;
+    color: #fd79a8; /* Rosa vibrante */
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
 footer a:hover {
-    color: #d35400;
+    color: #e84393; /* Rosa escuro */
 }
-
 @media (max-width: 768px) {
     #home h2 {
         font-size: 36px;
@@ -200,7 +168,6 @@ footer a:hover {
         width: 45%;
     }
 }
-
 @media (max-width: 480px) {
     .product {
         width: 100%;
